@@ -1,5 +1,11 @@
-# 💀 Task Reaper
-
+```
+  ______           __      ____                            
+ /_  __/___ ______/ /__   / __ \___  ____ _____  ___  _____
+  / / / __ `/ ___/ //_/  / /_/ / _ \/ __ `/ __ \/ _ \/ ___/
+ / / / /_/ (__  ) ,<    / _, _/  __/ /_/ / /_/ /  __/ /    
+/_/  \__,_/____/_/|_|  /_/ |_|\___/\__,_/ .___/\___/_/   V1
+                                       /_/               
+```
 A productivity system for printing tasks from your PC using a 58mm thermal receipt printer. Features a web-based task submission form, automated daily/weekly task printing, and system tray integration for background operation.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
