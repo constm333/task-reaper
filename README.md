@@ -171,4 +171,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Advanced scheduling options.
 - Task statistics and reporting.
 
-**Happy Printing!** 🐱
+**Happy Printing!**
+```
+ |\---/|
+ | o_o |
+  \_^_/
+```
