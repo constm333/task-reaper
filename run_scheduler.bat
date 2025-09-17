@@ -1,4 +1,5 @@
 @echo off
-cd /d "C:\Users\const\taskprinter"
+cd /d "Your install location here"
 call venv\Scripts\activate
 python scheduler.py
+
