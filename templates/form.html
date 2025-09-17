@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task Reaper</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' fill='white'/><rect x='16' y='16' width='32' height='32' fill='black'/></svg>">
+  <style>
+    body {
+      background-color: #121212;
+      color: #eeeeee;
+      font-family: sans-serif;
+      max-width: 500px;
+      margin: 2rem auto;
+    }
+
+    input, textarea {
+      width: 100%;
+      margin: 0.5rem 0;
+      padding: 0.5rem;
+      font-size: 1rem;
+      background-color: #1e1e1e;
+      color: #eeeeee;
+      border: 1px solid #444;
+    }
+
+    input:focus, textarea:focus {
+      outline: none;
+      border-color: #888;
+    }
+
+    button {
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      background-color: #333;
+      color: #eee;
+      border: 1px solid #555;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #444;
+    }
+
+    pre {
+      text-align: center;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      font-family: monospace;
+      margin-bottom: 2rem;
+    }
+
+    .signature {
+      margin-top: 4em;
+      text-align: center;
+      color: #999;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+<pre style="font-family: monospace; white-space: pre; font-size: 14px;">             
+  ______           __      ____                            
+ /_  __/___ ______/ /__   / __ \___  ____ _____  ___  _____
+  / / / __ `/ ___/ //_/  / /_/ / _ \/ __ `/ __ \/ _ \/ ___/
+ / / / /_/ (__  ) ,<    / _, _/  __/ /_/ / /_/ /  __/ /    
+/_/  \__,_/____/_/|_|  /_/ |_|\___/\__,_/ .___/\___/_/   V1
+                                       /_/               
+</pre>
+    <h2>Add a Task</h2>
+    <form action="/" method="post" autocomplete="off">
+        <label>Task Title:</label>
+        <input type="text" name="title" required autocomplete="off">
+
+        <label>Subtasks (comma-separated):</label>
+        <input type="text" name="subtasks" autocomplete="off">
+
+        <label>Notes:</label>
+        <textarea name="notes" rows="4" autocomplete="off"></textarea>
+        <button type="submit">Print</button>
+    </form>
+
+<pre style="font-family: monospace; text-align: center; white-space: pre; font-size: 12px;">
+
+ |\---/|
+ | o_o |
+  \_^_/ 
+</pre>
+<footer style="text-align: center; font-family: monospace; font-size: 12px">
+  C.M. - Braila – 2025
+</footer>
+  
+</body>
+</html>

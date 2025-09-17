@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Morning Routine",
+    "subtasks": ["Check emails", "Plan daily tasks"],
+    "notes": "Focus on high-priority items"
+  },
+  {
+    "title": "Daily Standup",
+    "subtasks": ["Update task board", "Share progress"],
+    "notes": "Keep it under 15 minutes"
+  }
+]

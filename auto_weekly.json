@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Weekly Review",
+    "subtasks": ["Review completed tasks", "Set next week’s goals"],
+    "notes": "Update project tracker"
+  },
+  {
+    "title": "Team Sync",
+    "subtasks": ["Prepare slides", "Collect feedback"],
+    "notes": "Schedule for Friday afternoon"
+  }
+]

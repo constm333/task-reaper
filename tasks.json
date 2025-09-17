@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Complete Project Proposal",
+    "subtasks": ["Draft outline", "Review with team"],
+    "notes": "Ensure alignment with project goals",
+    "print_now": true
+  },
+  {
+    "title": "Schedule Weekly Meeting",
+    "subtasks": ["Reserve meeting room", "Send calendar invite"],
+    "notes": "Include agenda in invite",
+    "print_now": true
+  }
+]
