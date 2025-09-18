@@ -6,7 +6,9 @@
 /_/  \__,_/____/_/|_|  /_/ |_|\___/\__,_/ .___/\___/_/   V1
                                        /_/               
 ```
-A productivity system for printing tasks from your PC using a 58mm thermal receipt printer. Features a web-based task submission form, automated daily/weekly task printing, and system tray integration for background operation.
+A productivity system for printing tasks from your PC using a 58mm thermal receipt printer. Features a web-based task submission form, automated daily/weekly task printing, and system tray integration for background operation. 
+
+I got inspired by this [video](https://www.youtube.com/watch?v=xg45b8UXoZI) from Coding with Lewis and he got inspired by this [article](https://www.laurieherault.com/articles/a-thermal-receipt-printer-cured-my-procrastination) from Laurie Herault.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
@@ -16,10 +18,10 @@ A productivity system for printing tasks from your PC using a 58mm thermal recei
 
 - **Web Interface**: Web-based task submission form.
 - **Automatic Scheduling**: Prints daily and weekly tasks automatically.
-- **Ticket Numbering**: Sequential numbering with daily reset.
+- **Ticket Numbering**: Tickets are numbered, reset daily, so every morning feels like a fresh roll.
 - **System Tray Integration**: Runs in the background with a tray icon (Windows).
 - **Thermal Printer Support**: Optimized for 58mm receipt printers.
-- **Cross-Platform**: Windows native, Linux with CUPS adjustments.
+- **Cross-Platformish**: Windows native, Linux with CUPS adjustments.
 
 ## 📁 Project Structure
 
@@ -36,11 +38,15 @@ taskprinter/
 ├── ticket_counter.json   # Tracks daily ticket numbers
 ├── last_run.json         # Tracks scheduler execution history
 ├── requirements.txt      # Python dependencies
-├── static/
-│   └── styles.css        # Web interface styling
 └── templates/
     └── form.html         # Web form for task submission
 ```
+
+## 😌 Caveats, Because Perfection Is Overrated
+
+- The design is not a masterpiece; it's functional and charmingly basic.
+- On Linux, printing may need fiddling (drivers, permissions, etc.).
+- It does one thing: print task tickets. If you want project management, time-tracking, Kanban boards—this isn’t it.
 
 ## 🚀 Installation & Setup
 
@@ -171,7 +177,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Advanced scheduling options.
 - Task statistics and reporting.
 
-**Happy Printing!**
+**Happy Reaping!**
 ```
  |\---/|
  | o_o |
