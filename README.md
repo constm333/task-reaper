@@ -6,6 +6,16 @@
 /_/  \__,_/____/_/|_|  /_/ |_|\___/\__,_/ .___/\___/_/   V1
                                        /_/               
 ```
+> [!NOTE]
+> **This project is archived and no longer maintained.**
+>
+> Task Reaper was a small personal experiment. I'm not a programmer, and the code was largely vibe coded, so it hasn't been thoroughly tested or hardened. I don't plan to update it, fix bugs, or provide support.
+>
+> Better, more reliable tools exist for this idea, so I'd recommend looking at those first: **[ReceiptPrinterAgent](https://github.com/CodingWithLewis/ReceiptPrinterAgent)**.
+>
+> If you'd still like to tinker with it, you're welcome to fork it under the MIT license.
+
+
 A productivity system for printing tasks from your PC using a 58mm thermal receipt printer. Features a web-based task submission form, automated daily/weekly task printing, and system tray integration for background operation. 
 
 I got inspired by this [video](https://www.youtube.com/watch?v=xg45b8UXoZI) from Coding with Lewis and he got inspired by this [article](https://www.laurieherault.com/articles/a-thermal-receipt-printer-cured-my-procrastination) from Laurie Herault.
@@ -42,13 +52,13 @@ taskprinter/
     └── form.html         # Web form for task submission
 ```
 
-## 😌 Caveats, Because Perfection Is Overrated
+## Caveats, Because Perfection Is Overrated
 
-- The design is not a masterpiece; it's functional and charmingly basic.
+- The design is not a masterpiece; it's functional and basic.
 - On Linux, printing may need fiddling (drivers, permissions, etc.).
 - It does one thing: print task tickets. If you want project management, time-tracking, Kanban boards—this isn’t it.
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Python 3.8+
@@ -118,25 +128,25 @@ Right-click the Task Reaper tray icon (Windows):
 - **Open Task Reaper**: Opens web interface in browser.
 - **Exit**: Shuts down the app.
 
-## ▶️ Usage
+## Usage
 - **Web Interface**: Visit `http://localhost:5000` to submit tasks with a title, subtasks (comma-separated), and notes. Tasks print automatically.
 - **Scheduler**: Run `scheduler.py` to print daily tasks or weekly tasks (on Fridays).
 - **Task Format**: Tasks are printed with a ticket number, date, title, subtasks, and notes.
 
-## ⚙️ Configuration
+## Configuration
 - **Task Files**: `tasks.json` (web tasks), `auto_daily.json` (daily), `auto_weekly.json` (weekly).
 - **Ticket Counter**: `ticket_counter.json` resets daily.
 - **Scheduler History**: `last_run.json` tracks last print times.
 - **Print Format**: Customize in `printer.py` (`format_task` function).
 
-## 🔧 Portability
+## Portability
 - **Windows to Windows**: Copy folder, update `.bat` file paths, reconfigure Task Scheduler.
 - **Windows to Linux**:
   - Convert `.bat` to `.sh` scripts.
   - Replace Task Scheduler with `cron` or `systemd`.
   - Update `printer.py` to use CUPS or `python-escpos`.
 
-## 🐛 Troubleshooting
+## Troubleshooting
 - **Printer Not Found**: Verify printer name in `printer.py` and ensure it’s connected.
 - **JSON Errors**: Validate JSON syntax in task files.
 - **Web Interface Inaccessible**: Check firewall settings for port 5000.
@@ -162,20 +172,7 @@ Right-click the Task Reaper tray icon (Windows):
 ## 📄 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🏆 Credits
-**Made by C.M. - Braila, 2025**
-
-### Acknowledgments
-- Flask team for the web framework.
-- pystray for system tray integration.
-- Python community for thermal printer libraries.
-
-## 🔮 Future Enhancements
-- Mobile app interface.
-- Cloud sync for tasks.
-- Support for multiple printers.
-- Advanced scheduling options.
-- Task statistics and reporting.
+**Made by C.M. - 2025**
 
 **Happy Reaping!**
 ```
